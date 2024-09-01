@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+void sum(int a, int b){
+    int total=a+b;
+  cout<<total<<endl;
+}
+int main()
+{
+    int a, b;
+    a=6;
+    b=7;
+    sum(a,b);
+    sum(7,9);
+    return 0;
+}
